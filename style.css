@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* #resume-container {
+    width: 50%;
+    height: fit-content;
+    background-color: azure;
+    margin: auto;
+    box-shadow: 0 0 5px 1px rgb(0, 0, 15);
+    margin-bottom: 10px;
+    padding-bottom:10px ;
+} */
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin: 5px;
+}
+
+#resume-form {
+    width: 50%;
+    border: 1px solid rgba(7, 157, 226, 0.466);
+    margin: auto;
+    margin-top: 20px;
+    background-color: azure;
+    box-shadow: 0 0 5px 1px rgb(0, 0, 15);
+    padding: 20px;
+   
+
+}
+
+input {
+    width: 95%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding:  5px 0 5px 10px;
+    margin: 5px;
+}
+fieldset{
+    margin: 5px;
+    background-color: rgba(128, 128, 128, 0.062);
+}
+
+textarea {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin: 3px;
+}
+
+legend {
+    color: darkblue;
+}
+
+label {
+    color: rgba(0, 0, 139, 0.644);
+}
+
+button {
+    width: 90%;
+    height: 35px;
+    background-color: blue;
+    font-size: 28px;
+    color: white;
+    padding-bottom: 5px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.705);
+}
+
+
+
+#resume-display{
+    width: 50%;
+    height: fit-content;
+    background-color: rgba(157, 197, 199, 0.473);
+    margin: auto;
+    padding: 20px;
+
+}
+.abc{
+    border:  1px solid black;
+}
